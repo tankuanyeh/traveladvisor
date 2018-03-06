@@ -1,0 +1,392 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">  <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+    crossorigin="anonymous">
+  <link rel="stylesheet" href="style.css">
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
+  <title>Travel Adivisor</title>
+</head>
+
+<style>
+  /* div {
+    border: solid 1px blue;
+  }  */
+
+  body {
+    background-color:lightgray;
+}
+
+</style>
+
+<body>
+
+    <div class="p" style="height: 75px; background-color: rgba(255,0,0,0.1);">
+ 
+        <div class="h-100 d-inline-block" style="width: 100%; background-color: rgba(255,0,0,0.1)"><p1 style="margin: 10px 10px 0px 0px; padding-top:0px"><img src="images/logo2.jpg" alt=""> Your Best Travel Advisor in Singapore</p1> </div>
+      </div>
+    <div class="red_line"></div>
+<!-- </div> -->
+      <nav class="navbar sticky-top navbar-expand-lg navbar-light bg-light" style="margin-top:0px">
+        <!-- <a class="navbar-brand" href="#">Navbar</a> -->
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+          <div class="navbar-nav">
+            <a class="nav-item nav-link active" href="#">Home <span class="sr-only">(current)</span></a>
+            <a class="nav-item nav-link" href="#">Travel Tips</a>
+            <a class="nav-item nav-link" href="#">Travel Itinery</a>
+            <a class="nav-item nav-link" href="#">Contact Us</a>
+          </div>
+        </div>
+      </nav>
+   </div>
+
+  <div class "=row">
+    <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+      <ol class="carousel-indicators">
+        <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+        <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+        <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+      </ol>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img class="d-block w-100" src="images/image1.jpg" alt="First slide" style="height: 400px">
+        </div>
+        <div class="carousel-item">
+          <img class="d-block w-100" src="images/image2.jpg" alt="Second slide" style="height: 400px">
+        </div>
+        <div class="carousel-item">
+          <img class="d-block w-100" src="images/image3.jpg" alt="Third slide" style="height: 400px">
+        </div>
+      </div>
+      <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="sr-only">Previous</span>
+      </a>
+      <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="sr-only">Next</span>
+      </a>
+</div>
+</div>
+
+<div class="container" style="margin-top:40px">
+  <div class="row">
+    <h2><span class="badge badge-secondary animated bounceInLeft">Travel Advisor</span></h2>
+    <div class="card c_box" style="margin-top:20px">
+        <div class="card-body"style="padding-bottom:0px">
+          <p class="lead" >
+    Thinking of planning for a holiday trip but find it time consuming? Look no further! Travel Advisor can share with you some of the traveling tips and information 
+    on how to plan a enjoyable holiday trip. These includes on how to plan a vacation when booking flights, hotels, tours, and attractions.
+   <br>
+Plus our best travel tips on how to access your money, buying travel insurance, travel packing tips, finding places to eat, getting visas and immunizations, and so much more!
+
+Whether you are traveling alone or planning a family vacation, you deserve to go away and create priceless memories without too much stress in the trip planning process.
+  </p>
+        </div>
+      </div>
+  
+  </div>
+    
+
+    <div class="row mx auto" style="margin-top: 30px">
+        <div class="col-4 " style="margin:0%">
+          <div class="list-group  c_box list-tab" id="" role="tablist" style="padding: 0%">
+            <a class="list-group-item list-group-item-action active" id="list-home-list" data-toggle="list" href="#list-home" role="tab" aria-controls="home">Step 1 – Choose Your Destination</a>
+            <a class="list-group-item list-group-item-action" id="list-profile-list" data-toggle="list" href="#list-profile" role="tab" aria-controls="profile">Step 2 – Book Flights for your trip</a>
+            <a class="list-group-item list-group-item-action" id="list-messages-list" data-toggle="list" href="#list-messages" role="tab" aria-controls="messages">Step 3 – Book Accommodation for your trip</a>
+            <a class="list-group-item list-group-item-action" id="list-settings-list" data-toggle="list" href="#list-settings" role="tab" aria-controls="settings">Step 4 – Getting Around</a>
+          </div><br>
+         <div class="card c_box" style="width:302px; margin:auto"><h4 style="text-align: center">Photo Gallery</h4>
+          
+          
+        <!-- Test -->
+        <div class="row" style="margin:0%">
+          <a target="_blank" href="images/p1.jpg">
+          <img src="images/p1.jpg" alt="Photos" style="width:150px">
+           <a target="_blank" href="images/p2.jpg">
+          <img src="images/p2.jpg" alt="Photos" style="width:150px">
+          </a>
+        </div>
+        
+        <div class="row" style="margin:0%">
+            <a target="_blank" href="images/p3.jpg">
+            <img src="images/p3.jpg" alt="Photos" style="width:150px">
+             <a target="_blank" href="images/p4.jpg">
+            <img src="images/p4.jpg" alt="Photos" style="width:150px">
+            </a>
+          </div>
+          
+         
+        
+        <!-- Test -->
+        
+        
+        
+        
+        </div>
+        
+        
+        
+        
+        </div>
+
+
+
+
+
+
+        <div class="col-8">
+          <div class="tab-content" id="nav-tabContent" style="padding: 0%">
+            <div class="tab-pane fade show active c_box" id="list-home" role="tabpanel" aria-labelledby="list-home-list" style="background-color: white"><p class="lead" style="padding:20px;padding-bottom:0px"><b>Step 1 – Choose Your Destination</b><br>
+
+                <b>Where do you want to go?</b> <br>
+                
+                Your first step in how to start planning a trip is to choose a travel destination that meets your interests and travel budget.
+                
+                Are you planning overseas travel or a domestic trip at home? Either way, the whole idea of taking a trip is to have a memorable time, to have fun and relax, and not to spend your whole vacation time worrying about money.
+                <br><b>How much time do you have?</b><br>
+                
+                If you only have 1-2 weeks of vacation time per year, don’t waste too much of that time traveling to and from your destination. Plan your trip accordingly.
+                
+                But if you have 2-4 weeks or over a month you can look at taking an overseas trip or traveling further within your home country.
+                <br><b>Who are you traveling with?</b><br>
+                
+                When you plan your trip, your destination choices can be affected by your traveling companions.
+                
+                Will you be traveling solo, as a couple, or taking family vacations?
+                
+                Sit down with other members of your traveling group and discuss your ideas and interests. Memorable trips are those where each member gets to experience something they love.
+                
+                Don’t leave it to one person to make all the decisions. Or, maybe you could take turns in choosing a destination each year!
+                <br><b>What kind of experiences do you like?</b><br>
+                
+                To have a memorable trip, choose a destination that allows you to have experiences you enjoy.
+                
+                Do you like:
+                
+                    Relaxation or adventure
+                    Beaches or mountains
+                    Summer or winter
+                    Cities or countryside
+                    Resorts or road trips
+                    Festivals and culture
+                    Shopping or food experience
+                    Luxury, mid-range, or budget
+                
+                Are you the type of person who likes to sit by the pool all day with a book? Or would this bore you to death? By answering these types of questions you can narrow down your list of where you want to go for your dream trip!</p></div>
+            <div class="tab-pane fade c_box" id="list-profile" role="tabpanel" aria-labelledby="list-profile-list" style="background-color: white"><p class="lead" style="padding:20px;padding-bottom:0px"><b>Step 2 – Book Flights for your trip</b><br>
+
+              Once you have chosen your destination, step two in planning a trip is to book your flights. And learning how to find cheap flights will help you to reduce one of your biggest travel expenses.
+              
+              As a traveling family, if it’s an overseas trip and a long haul flight I like to plan my trip so we get to our destination as quickly as possible, with the most amount of comfort and facilities our budget allows!
+              
+              If it’s your one-and-only dream vacation for the year, and you only have 1-2 weeks, I recommend you pay the little bit extra for a premium airline and fly direct too!
+              <br><b>Searching for flights</b><br>
+              
+              What sites are helpful for planning a trip online?<br>
+              
+              When searching for cheap flights online we always start with Skyscanner, it’s one of our favorite booking sites.
+              
+              Skyscanner is a comparison site that searches millions of flights from over a thousand airlines, and once you’ve found your flight on Skyscanner you are taken to the airline or agency to make your booking (no extra fees added).<br>
+              
+              
+              Download the new Skyscanner App, which makes it easier for you to find the best travel deals. It’s an all in one flights, hotel and car hire search engine app!<br>
+              
+              Other credible flight search engines include Kayak, Hipmunk, Google Flights, and Momondo.
+              <br><b>Go direct to the airlines</b><br>
+              
+              After you have used the flight search engines suggested above and found your best flight, go directly to that airline’s own website and see if you can get it for cheaper.
+              
+              Many airlines have lower fares only available on their own site.</p></div>
+            <div class="tab-pane fade c_box" id="list-messages" role="tabpanel" aria-labelledby="list-messages-list" style="background-color: white"><p class="lead" style="padding:20px;padding-bottom:0px"><b>Step 3 – Book Accommodation for your trip</b><br>
+
+              Where you sleep is your other major fixed travel expense, so choosing the best accommodation for your needs at the best price will free up more money for activities.
+              
+              Besides listing all the major hotel brands, you can find a variety of low-cost independently owned hotels that can be difficult to find elsewhere through booking.com website.
+              
+           The website is user-friendly and recommend you start your accommodation search there when you plan your trip.
+              
+                 <br> Great features:<br>
+                 <ul>
+                  <li>Book now, pay later at check in</li>
+                  <li> Free cancellation on most rooms</li>
+                  <li>24/7 customer service</li>
+                  <li>Best price guarantee</li>
+                </ul> 
+                  </p></div>
+            <div class="tab-pane fade c_box" id="list-settings" role="tabpanel" aria-labelledby="list-settings-list" style="background-color: white"><p class="lead" style="padding:20px;padding-bottom:0px"><b>Step 4 – Getting Around</b><br>
+
+              Another thing to consider when planning a trip is to find out the transportation options in your chosen destination.
+              
+              Will you need to book a rental car or pre-purchase any transportation passes online? Is there a train or bus service? Are there taxis or Uber? Can you simply walk to most places?
+              
+              For example, when you visit Sydney you need an Opal Card to get around on public transport. When you visit London you need an Oyster Card for public transportation. Are you planning to travel through Europe by train? 
+              
+              During your travel planning research the transport options for your destination. This will save you time and stress once there.
+              <br><b>Rental Cars</b><br>
+              
+              If you need a rental car, booking online in advance will almost always get you a better deal than if you just show up at the counter. And it’s easier and quicker.
+              
+              The last thing you want to do after a long flight is deal with rental car companies at the airport and negotiate a deal.
+              
+              The quickest way to compare rental companies is to use an aggregator site that searches all the major car brands at once and checks which supplier offers the best prices for your chosen dates and location.
+              
+              </p></div>
+          </div>
+        </div>
+      </div>
+<!-- end of row -->
+
+
+<span class="badge badge-secondary animated bounceInLeft" style="margin-top:40px" ><h4>Travel Intinery</h4></span>
+  <!-- <div class="row mx-auto" style="margin:0px"> -->
+<div class="row mx auto" style="margin-top:30px">
+    <div class="col card c_box" style="margin-right:10px ; padding:0px; padding-bottom:0%">
+      
+        <div class="container_C">  
+          <img class="card-img-top img-responsive w3-hover-opacity" src="images/KIX_640.jpg" alt="Card image cap" style="margin-left:0px" height="300">
+          <div class="content">
+            <h1>Osaka</h1>
+            <!-- <p>Short Phrase</p> -->
+          </div>
+        </div> 
+        
+        <!-- <div class="card-body"> 
+          <h5 class="card-title">Osaka</h5>
+          <p class="card-text">Osaka is a </p>
+          <a href="#" class="btn btn-primary">Read more</a>
+        </div>
+         -->
+      </div>
+    
+
+    <div class="col card c_box" style="margin-right:10px; padding:0px">
+        <div class="container_C">  
+        <img class="card-img-top img-responsive w3-hover-opacity" src="images/sydney-image.jpg" alt="Card image cap" height="300">
+        <div class="content">
+            <h1>Sydney</h1>
+            <!-- <p>Short Phrase</p> -->
+          </div>
+        </div> 
+      </div>
+
+    <div class="col card c_box">
+        <div class="container_C"> 
+        <img class="card-img-top img-responsive w3-hover-opacity" src="images/busan.jpg" alt="Card image cap" height="300">
+        <div class="content">
+            <h1>Busan</h1>
+            <!-- <p>Short Phrase</p> -->
+          </div>
+        </div> 
+      </div>
+</div>
+
+<nav aria-label="breadcrumb">
+    <ol class="breadcrumb"style="margin: 20px 0px 10px 0px">
+      <li class="breadcrumb-item active" aria-current="page">Travel Video</li>
+    </ol>
+  </nav>
+
+<div class="row" style="margin-top:40px; padding-bottom:0px">
+  <div class="col-6">
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/wgIMm-nVSpM" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>     
+  
+  </div>
+            <div class="col-6">
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/wgIMm-nVSpM" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>     
+              
+              </div>
+          
+          </div>
+<!-- Inside container -->
+
+
+
+</div>
+
+<div class="container-fluid"> 
+<div class="row" style="height:400px; background-color: rgba(255,0,0,0.1); margin-top:100px">
+ <div class="col-4">
+   <div class="list-group mx-auto" style="padding-top: 40px">
+    <a href="#" class="list-group-item" style="background-color:  rgba(255,0,0,0.1); margin-right:150px; alignment: "><i class="fa fa-phone fa-fw" aria-hidden="true"></i> +65 98535148</a>
+    <a href="#" class="list-group-item" style="background-color:  rgba(255,0,0,0.1) ;margin-right:150px"><i class="fa fa-envelope fa-fw" aria-hidden="true"></i> kuanyeh@traveladvisor.com</a>
+    <a href="#" class="list-group-item" style="background-color:  rgba(255,0,0,0.1) ; margin-right:150px"><i class="fas fa-map-marker fa-fw" aria-hidden="true"></i> 6 Tampines Industrial Ave</a>
+</div>
+   <!-- <div style="padding-top: 40px; padding-left:20px"><i class="fas fa-phone fa-1x" style="padding-right:5px"></i> 98535148<br><i class="fas fa-envelope fa-1x" style="padding-right:5px"></i> tanky@traveladvisor.com<br><i class="fas fa-map-marker fa-1x" style="padding-right:5px"></i> 6 Tampines Road Singapore 123456</div> -->
+
+</div>
+ <div class="col-4">How to Go<br>
+  <div class="embed-responsive embed-responsive-4by3"> 
+      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3988.6725313414304!2d103.92704331473801!3d1.3731683618826198!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31da3d8fa77d6515%3A0x3d4486c01a908351!2sIBM+Manufacturing+Solutions+Pte+Ltd!5e0!3m2!1sen!2ssg!4v1517967261856" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe></div>
+    
+    <!-- <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d31909.654262131506!2d103.94733539999999!3d1.3524873999999998!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2ssg!4v1520219114238" width="400" height="300" frameborder="0" style="border:0" allowfullscreen></iframe> -->
+  </div>
+ <div class="col-4">
+   <p class="font-weight-bold" style="padding-top:40px">Follow Trip Advisor Singapore</p>
+   <a href="https://www.traveladvisor.com/ig"><i class="fab fa-instagram fa-2x" style="margin-left:5px; margin-top:5px"></i></a><a href="https://www.traveladvisor.com/facebook"><i class="fab fa-facebook-f fa-2x"style="margin-left:15px"></i></a><a href="https://www.traveladvisor.com/youtube"><i class="fab fa-youtube fa-2x" style="margin-left:15px"></i></a><a href="https://www.traveladvisor.com/twitter"><i class="fab fa-twitter fa-2x" style="margin-left:15px"></i></a></div>  
+
+   <!-- <div class="col-4"></i></div> -->
+
+  
+
+</div>
+
+  </div>
+
+<!-- <div class="footer">
+    <p>Footer</p>
+  </div>
+  </div> -->
+
+
+
+</body>
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+  crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+  crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+  crossorigin="anonymous"></script>
+
+  <script>
+      function myMap() {
+      var mapProp= {
+          center:new google.maps.LatLng(51.508742,-0.120850),
+          zoom:5,
+      };
+      var map=new google.maps.Map(document.getElementById("googleMap"),mapProp);
+      }
+      </script>
+      
+      <script src="https://maps.googleapis.com/maps/api/js?key=YOUR_KEY&callback=myMap"></script>
+      
+      <script>
+          $(function () {
+            $('#myList a:last-child').tab('show')
+          })
+        </script>
+      <script>$('#myList a').on('click', function (e) {
+        e.preventDefault()
+        $(this).tab('show')
+      })
+
+      
+      </script><script defer src="https://use.fontawesome.com/releases/v5.0.7/js/all.js"></script>
+<script>
+$('#myModal').on('shown.bs.modal', function () {
+  $('#myInput').trigger('focus')
+})
+    </script>
+<script type="text/javascript" src="https://cdn.jsdelivr.net/wow/1.1.2/wow.min.js"></script>
+<!-- <script src="js/wow.min.js"></script> -->
+<script>new WOW().init();</script>
+
+</html>
